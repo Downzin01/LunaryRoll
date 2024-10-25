@@ -1,0 +1,12 @@
+{
+  "name": "lunaryroll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --write \"**/*.{html,css,js}\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
