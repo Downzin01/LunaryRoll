@@ -1,1 +1,0 @@
-<?php echo '<footer>Footer Content</footer>'; ?>

@@ -1,1 +1,0 @@
-<?php define('DEBUG', true); ?>
