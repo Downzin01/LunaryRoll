@@ -1,6 +1,19 @@
+/* Paleta de cores: #030614, #212D9A, #4DBBF9, #FFFFFF, #000000 */
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+.logo_lunar {
+    margin: 39px 24px;
+}
+
+#tela_principal {
+    background-color: #030614;
+    background-image:url(../css/img/Imagem\ Background\ Elements.png), url(../css/img/Wave\ Ondas.png) , url(../css/img/Imagem\ Background\ Nao\ Tomori.png);
+    background-repeat: no-repeat, no-repeat, no-repeat; 
+    background-position: left, 762px, 762px;
+    background-attachment: fixed, fixed, fixed;
 }
