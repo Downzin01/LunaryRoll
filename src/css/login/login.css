@@ -1,0 +1,162 @@
+.login-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.5rem 2.5rem;
+}
+
+.logo img {
+    max-height: 100px;
+}
+
+#login-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+#login-container > div.login-form {
+    padding: 5rem;
+    color: var(--branco);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 130px;
+
+    background-image: url('../../img/login/ImagemBackgroundElements.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#login-container > div.login-form > h2 {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+#login-container > div.login-form > form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+}
+
+#login-container > div.login-form > form > input[type='email'],
+#login-container > div.login-form > form > input[type='password'] {
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 2.5rem;
+    border: none;
+    border-bottom: 3px solid rgba(58, 95, 204, 0.4);
+    color: var(--branco);
+    font-size: 1.25rem;
+    font-weight: 600;
+    background: transparent;
+    width: 80%;
+}
+
+#login-container > div.login-form > form > button {
+    width: 30%;
+    padding: 0.8rem;
+    margin-top: 1rem;
+    border: 1px solid var(--cinza-button);
+    background: none;
+    color: var(--cinza-button);
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    align-self: center;
+    transition: 0.5s ease;
+}
+
+#login-container > div.login-form > form > button:hover {
+    color: var(--azul-button-hover);
+    border: 1px solid var(--azul-button-hover);
+    background: var(--preto-button-hover);
+}
+
+#login-container > div.login-form > p {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+#login-container > div.login-form > p > a {
+    margin-left: 3px;
+    color: var(--azul-link);
+    text-decoration: none;
+    transition:
+        color 0.3s ease-in-out,
+        transform 0.3s ease-in-out;
+}
+
+#login-container > div.login-form > p > a:hover {
+    color: var(--azul-link-hover);
+    transform: scale(1.02);
+    display: inline-block;
+}
+
+.login-links {
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.login-links a {
+    margin: 0 0.5rem;
+    color: var(--cinza-button);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.3s ease;
+}
+
+.login-links a:hover {
+    color: var(--azul-button-hover);
+}
+
+.login-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 3rem 0;
+}
+
+.login-logos img {
+    width: 170px;
+    margin: 0 10px;
+}
+
+.wave-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 55%;
+    height: 100vh;
+    transform: translateX(-50%);
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.wave-overlay img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    min-height: 100%;
+}
+
+.image-container {
+    width: 50%;
+    background: url('../../img/login/ImagemBackground-NaoTomori.png') center/cover no-repeat;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}

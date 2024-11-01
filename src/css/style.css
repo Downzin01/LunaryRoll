@@ -1,19 +1,36 @@
 /* Paleta de cores: #030614, #212D9A, #4DBBF9, #FFFFFF, #000000 */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('./login/login.css');
+
+:root {
+    /* Paleta de cores:*/
+    --preto: #000;
+    --branco: #fff;
+    --azul-background: #030614;
+    --azul-escuro: #212d9a;
+    --azul: #4dbbf9;
+
+    /* Cores login page*/
+    --cinza-button: #bebebf;
+    --azul-button-hover: #3366ff;
+    --preto-button-hover: #070707;
+    --azul-link: #325cd9;
+    --azul-link-hover: #5279ee;
+}
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-.logo_lunar {
-    margin: 39px 24px;
-}
-
-#tela_principal {
-    background-color: #030614;
-    background-image:url(../css/img/Imagem\ Background\ Elements.png), url(../css/img/Wave\ Ondas.png) , url(../css/img/Imagem\ Background\ Nao\ Tomori.png);
-    background-repeat: no-repeat, no-repeat, no-repeat; 
-    background-position: left, 762px, 762px;
-    background-attachment: fixed, fixed, fixed;
+body,
+html {
+    width: 100%;
+    height: 100%;
+    background: var(--azul-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
