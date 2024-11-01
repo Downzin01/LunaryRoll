@@ -3,19 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LunaryRoll</title>
-    <link rel="stylesheet" href="./src/css/style.css">
-    <link rel="shortcut icon" href="src/css/img/Logo LunaryRoll icon.png" type="image/x-icon">
+    <title>Página de Login</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+            margin: 0; 
+            background-color: #030614; 
+        }
+
+        .login-button {
+            padding: 10px 20px; 
+            font-size: 16px; 
+            color: white; 
+            background-color: #325cd9; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+            transition: background-color 0.3s;
+        }
+
+        .login-button:hover {
+            background-color: #5279ee; 
+        }
+    </style>
 </head>
-
-<body id="tela_principal">
-    <header class="logo_lunar">
-        <img src="./src/css/img/Logo LunaryRoll.png" alt="LunaryRoll_logo">
-        <section>
-            <nav>
-
-            </nav>
-        </section>
-    </header>
+<body>
+    <a href="./src/pages/login.html">
+        <button class="login-button">Login</button>
+    </a>
 </body>
 </html>
