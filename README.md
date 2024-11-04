@@ -29,15 +29,15 @@
 <div align="center">
     <h2>💻 Preview ✨</h2>
     <div>
-        <a href="http://cine-box.vercel.app">
+        <a href="https://lunaryroll.vercel.app/">
             <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
         </a>
-        <a href="http://downzin01.github.io/LunaryRoll/">
+        <a href="https://downzin01.github.io/LunaryRoll/">
             <img src="https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white" alt="Github pages" />
         </a>
     <div>
     <br>
-    <a href="http://cine-box.vercel.app">
+    <a href="https://downzin01.github.io/LunaryRoll/">
         <img src="./src/img/readme/previewGif-markdown.jpg" style="width: 80%; height: auto;" alt ="Preview Image"/>
     </a>
 </div>
