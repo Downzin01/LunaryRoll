@@ -33,10 +33,10 @@
 - [ ] **Landing page**
 	- [ ] **Nav [Direcionar para seções da página]**
 	- [ ] Home
-	- [ ] Texto Apresentativo
+  	- [ ] Texto Apresentativo
 	- [ ] Botões
-	- [ ] começar [login/Cadastro]
-	- [ ] Planos [Direcionar seção de planos]
+    	- [ ] começar [login/Cadastro]
+    	- [ ] Planos [Direcionar seção de planos]
 	- [ ] Imagem Ilustrativa
 - [ ] **Planos**
 	- [ ] **Titulo**
@@ -57,7 +57,11 @@
 - [x] **Tela de Login**
 	- [x] **Formulário Login**
 		- [x] inputs login
-		- [ ] link direcional para cadastro
+            - [ ] E-mail
+            - [ ] Senha
+        - [ ] botão
+            - [ ] Entrar 
+  		- [ ] link direcional para cadastro
 		- [x] links para termos de uso
 		- [ ] validação
 	- [x] **Imagem Ilustrativa**
@@ -68,10 +72,15 @@
 - [ ] **Tela de cadastro**	
 	- [ ] **Formulário Cadastro**
 		- [ ] inputs cadastro
+            - [ ] E-mail
+            - [ ] Senha
+            - [ ] Confirmar senha
 		- [ ] link direcional para login
 		- [ ] links para termos de uso
 		- [ ] checkbox de novidades
 		- [ ] validação
+		- [ ] botão
+    		- [ ] cadastrar
 	- [ ] Imagem Ilustrativa
 	- [ ] Logos	
 
@@ -105,7 +114,7 @@
 	- [ ] **Anúncio Mangá Imagem**
 	- [ ] **Sessão Mangás recomendados**
 	- [ ] **Sessão Mangás Populares**
-    - [ ] **Rodape**
+    - [ ] **Rodapé**
 
 ---
 
@@ -122,7 +131,7 @@
 		- [ ] Playlist
 		- [ ] Exibição de Mangá
 		- [ ] Exibição de Anime
-		- [ ] Acessibilidaade
+		- [ ] Acessibilidade
 		- [ ] Reprodução
 
 ---
@@ -136,7 +145,7 @@
 	- [ ] Comentários
 	- [ ] Episódios
 		- [ ] Filtro Temporadas
-	- [ ] Botão
+	- [ ] **Botão**
 		- [ ] Salvar Playlist
 		- [ ] Assistir
 ---
@@ -148,11 +157,11 @@
 	- [ ] Descrição
 	- [ ] Avaliações
 	- [ ] Comentários
-	- [ ] Episódios
-		- [ ] Filtro Temporadas
-	- [ ] Botão
-		- [ ] Salvar Playlist
-		- [ ] Assistir
+	- [ ] Capítulos
+		- [ ] Filtro Ordenação
+	- [ ] **Botão**
+		- [ ] Playlist
+		- [ ] Ler Mangá
 
 <div align="center">
     <h2>💻 Preview ✨</h2>
