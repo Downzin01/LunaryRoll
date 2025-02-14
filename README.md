@@ -26,6 +26,134 @@
     </div>  
 </section>
 
+### Lista de componentes do projeto LunaryRoll
+
+---
+
+- [ ] **Landing page**
+	- [ ] **Nav [Direcionar para seções da página]**
+	- [ ] Home
+	- [ ] Texto Apresentativo
+	- [ ] Botões
+	- [ ] começar [login/Cadastro]
+	- [ ] Planos [Direcionar seção de planos]
+	- [ ] Imagem Ilustrativa
+- [ ] **Planos**
+	- [ ] **Titulo**
+	- [ ] **Cards Planos**
+	- [ ] **Animes**
+		- [ ] Titulo para animes
+		- [ ] Carrossel Animes
+	- [ ] **Mangás**
+		- [ ] Titulo para mangás
+		- [ ] Carrossel Mangás
+	- [ ] **Rodapé**
+		- [ ] Links direcionais
+		- [ ] Suporte
+		- [ ] Copyright
+
+---
+
+- [x] **Tela de Login**
+	- [x] **Formulário Login**
+		- [x] inputs login
+		- [ ] link direcional para cadastro
+		- [x] links para termos de uso
+		- [ ] validação
+	- [x] **Imagem Ilustrativa**
+	- [x] **Logos**
+ 
+---
+
+- [ ] **Tela de cadastro**	
+	- [ ] **Formulário Cadastro**
+		- [ ] inputs cadastro
+		- [ ] link direcional para login
+		- [ ] links para termos de uso
+		- [ ] checkbox de novidades
+		- [ ] validação
+	- [ ] Imagem Ilustrativa
+	- [ ] Logos	
+
+---
+
+- [ ] **Tela Inicial**
+	- [ ] Nav
+	- [ ] **Banner Carrossel**
+		- [ ] Titulo Anime
+		- [ ] Descrição Anime
+		- [ ] Recomendação
+		- [ ] Sinopse
+		- [ ] Botão para assistir
+		- [ ] Imagem do banner anime
+	- [ ] **Sessão de animes recomendados**
+	- [ ] **Sessão de animes de Novos Lançamentos**
+	- [ ] **Anuncio imagens**
+	- [ ] **Lista do Usuário**
+	- [ ] **Rodapé**
+  
+---
+
+- [ ] **Tela Mangá**
+	- [ ] Nav
+	- [ ] **Banner Carrossel**
+		- [ ] Imagem Banner Mangá
+		- [ ] Titulo Mangá
+		- [ ] Sinopse
+		- [ ] Imagem Personagem
+	- [ ] **Trending Mangás**
+	- [ ] **Anúncio Mangá Imagem**
+	- [ ] **Sessão Mangás recomendados**
+	- [ ] **Sessão Mangás Populares**
+    - [ ] **Rodape**
+
+---
+
+- [ ] **Tela de Usuário**
+    - [ ] **Configurações Gerais**
+		- [ ] Minha Conta
+		- [ ] Perfis
+    - [ ] **Configurações Cobranças**
+		- [ ] Assinatura
+		- [ ] Gerenciar
+    - [ ] **Configurações Personalizações**
+		- [ ] Aparência
+		- [ ] Temas
+		- [ ] Playlist
+		- [ ] Exibição de Mangá
+		- [ ] Exibição de Anime
+		- [ ] Acessibilidaade
+		- [ ] Reprodução
+
+---
+
+- [ ] **Tela Informação Anime**
+	- [ ] Imagem do Anime
+	- [ ] Recomendação
+	- [ ] Titulo
+	- [ ] Descrição
+	- [ ] Avaliações
+	- [ ] Comentários
+	- [ ] Episódios
+		- [ ] Filtro Temporadas
+	- [ ] Botão
+		- [ ] Salvar Playlist
+		- [ ] Assistir
+---
+
+- [ ] **Tela Informação Mangá**
+	- [ ] Imagem do Mangá
+	- [ ] Recomendação
+	- [ ] Titulo
+	- [ ] Descrição
+	- [ ] Avaliações
+	- [ ] Comentários
+	- [ ] Episódios
+		- [ ] Filtro Temporadas
+	- [ ] Botão
+		- [ ] Salvar Playlist
+		- [ ] Assistir
+
 <div align="center">
     <h2>💻 Preview ✨</h2>
     <div>
