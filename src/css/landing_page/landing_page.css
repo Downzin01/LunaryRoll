@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+* {
+    background-color: #030614;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.5rem 2.5rem;
+}
+
+.navbar-logo img {
+    width: 70px;
+    max-width: 100px;
+}
+
+.navbar-buttons a {
+    margin: 30px;
+    font-size: 2rem;
+    font-family: "Maven Pro", serif;
+    text-decoration: none;
+    color: #ffffff;
+}
