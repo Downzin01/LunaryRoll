@@ -1,26 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
 * {
     background-color: #030614;
+    font-family: "Maven Pro", bold;
 }
 
 .navbar {
+    margin-top: 34px;
+    margin-left: 109px;
     display: flex;
+    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1.5rem 2.5rem;
 }
 
 .navbar-logo img {
-    width: 70px;
+    width: 57px;
     max-width: 100px;
+}
+
+.navbar-buttons{
+    margin-left: 32px;
+    display: flex;
+    justify-content: center;
 }
 
 .navbar-buttons a {
     margin: 30px;
-    font-size: 2rem;
-    font-family: "Maven Pro", serif;
+    font-size: 32px;
     text-decoration: none;
+    color: #ffffff; 
+}
+
+.banner-text{
+    margin-top: 266px; 
+    font-size: 64px;
     color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    display: flex;
 }
