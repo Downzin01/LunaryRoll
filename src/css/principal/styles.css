@@ -1,0 +1,57 @@
+/* Paleta de cores: #030614, #212D9A, #4DBBF9, #FFFFFF, #000000 */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+    /* Paleta de cores:*/
+    --preto: #000;
+    --branco: #fff;
+    --azul-background: #030614;
+    --azul-escuro: #212d9a;
+    --azul: #4dbbf9;
+
+    /* Cores login page*/
+    --cinza-button: #bebebf;
+    --azul-button-hover: #3366ff;
+    --preto-button-hover: #070707;
+    --azul-link: #325cd9;
+    --azul-link-hover: #5279ee;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body,
+html {
+    height: 100dvh;
+}
+
+.teste {
+    background-color: #0A0B14;
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav__menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-transform: uppercase;
+    font-family: "Lato", serif;
+}
+
+.nav__menu li {
+    font-size: 20px;
+}
+
